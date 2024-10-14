@@ -1,0 +1,35 @@
+# Ignore node_modules in House folder
+/House/node_modules/
+
+# Ignore House build outputs
+/House/dist/
+/House/out-tsc/
+/House/build/
+
+# Ignore House cache
+/House/.angular/
+/House/.angular-cache/
+
+# Ignore logs
+/House/npm-debug.log*
+/House/yarn-debug.log*
+/House/yarn-error.log*
+/House/*.log
+
+# Ignore environment files
+/House/.env
+/House/.env.*.local
+
+# Ignore test coverage
+/House/coverage/
+
+# Ignore temporary files
+/House/tmp/
+/House/temp/
+
+# Editor/IDE files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.tmp
